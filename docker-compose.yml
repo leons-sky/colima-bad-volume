@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  service:
+    build:
+      context: .
+    container_name: colimaminrep
+    ports:
+      - '80:80'
+    volumes:
+      - '.:/var/www/html'

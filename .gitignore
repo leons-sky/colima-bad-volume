@@ -1,0 +1,15 @@
+/node_modules/
+.DS_Store
+web/node_modules
+node_modules/
+npm-debug.log*
+.npm/
+.node-gyp/
+.vscode/
+.classpath
+.project
+.settings
+.gauge
+*.iml
+node_modules
+npm
